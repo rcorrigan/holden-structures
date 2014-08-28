@@ -1,6 +1,5 @@
 holden-structures
 =================
-
 Atomic resolution protein structures of genes screened by the Holden Comprehensive Cancer Center.
 
 The initial models that we have refined are from either Swiss-Model or ModBase, indicated by the initials following their sequence length (see Naming Conventions, below).  These original structures are refined using two different optimization algorithms, developed by the Michael Schnieders lab at the University of Iowa:
