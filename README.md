@@ -4,15 +4,15 @@ Atomic resolution protein structures of genes screened by the Holden Comprehensi
 
 The initial models that we have refined are from either Swiss-Model or ModBase, indicated by the initials following their sequence length (see Naming Conventions, below).  These original structures are refined using two different optimization algorithms, developed by the Michael Schnieders lab at the University of Iowa:
 
-  Algorithm 1. is a local algorithm; it will computationally “walk down hill” in energy until it finds the lowest possible energy (i.e. it looks for the lowest energy position for each atom to be in and when it finds a certain minimum energy, defined by convergence criteria, it stops there).
+  Algorithm 1. is a local optimization algorithm; it will computationally “walk down hill” in energy until it finds a certain root mean square gradient as defined by a convergence criteria (i.e. it looks for the minimum root mean square energy gradient position for each atom to be in and when it finds a pre-defined convergence criteria, it stops there).
   
   Algorithm 2. is a rotamer optimization algorithm. Rotamers are branches that protrude from the main protein structure and can interact with each other to varying degrees, depending on the protein folding.  
   
-Proteins prefer to fold into states with the lowest rotamer interaction possible leading to a more stable, lower-energy structure.
+Proteins prefer to fold into states with the lowest rotamer interaction possible leading to a more stable structure.
 
 The rotamer optimization algorithm determines the optimal orientation of each rotamer so they have the least possible interaction with other rotamers around them while maintaining the protein backbone in a fixed position.  
 
-This algorithm is known as a global algorithm since it can “walk” both “up and down hill” in energy until it finds the absolute minimum energy structure. This differs from a local optimizer in that it is willing to leave a low energy state in order to see if there is a state of even lower energy the algorithm can find. 
+This algorithm is known as a global optimzation algorithm since it can “walk” both “up and down hill” in energy u until it  finds  the structure with the lowest root mean square gradient of energy, as defined by a convergence criteria. This differs from a local optimizer in that it compares all the root mean square energy gradient minimums of the structure to determine the structure with the absolute minimum root mean square gradient. 
 
 
 Naming Conventions:
