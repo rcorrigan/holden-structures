@@ -6,13 +6,13 @@ The initial models that we have refined are from either Swiss-Model or ModBase, 
 
   Algorithm 1. is a local optimization algorithm; it will computationally “walk down hill” in energy until it finds a certain root mean square gradient as defined by a convergence criteria (i.e. it looks for the minimum root mean square energy gradient position for each atom to be in and when it finds a pre-defined convergence criteria, it stops there).
   
-  Algorithm 2. is a rotamer optimization algorithm. Rotamers are branches that protrude from the main protein structure and can interact with each other to varying degrees, depending on the protein folding.  
+  Algorithm 2. is a rotamer optimization algorithm. Rotamers are the variable portion of amino acids that are attached to the c-alpha carbon atoms fo the protein backbone and can interact with each other to varying degrees, depending on the protein folding.  
   
-Proteins prefer to fold into states with the lowest rotamer interaction possible leading to a more stable structure.
+Proteins prefer to fold into states with the most favorable rotamer interaction possible leading to a more stable structure.
 
-The rotamer optimization algorithm determines the optimal orientation of each rotamer so they have the least possible interaction with other rotamers around them while maintaining the protein backbone in a fixed position.  
+The rotamer optimization algorithm determines the optimal conformation of each rotamer such that favorable interaction between side-chains are optimized. The protein backbone is kept fixed during this stage.  
 
-This algorithm is known as a global optimzation algorithm since it can “walk” both “up and down hill” in energy u until it  finds  the structure with the lowest root mean square gradient of energy, as defined by a convergence criteria. This differs from a local optimizer in that it compares all the root mean square energy gradient minimums of the structure to determine the structure with the absolute minimum root mean square gradient. 
+This algorithm is known as a global optimization algorithm since it can "walk" both "up and down hill" in energy. All side-chain rotamer permutations are searched using an advanced version of Dead-End Elimination for many-body potential energy functions.
 
 
 Naming Conventions:
