@@ -5,14 +5,20 @@ Atomic resolution protein structures of genes screened by the Holden Comprehensi
 MolProbity Statistics:
 
 Mean MolProbity Score for all STARTING Structures = 2.529
+
 Mean MolProbity Score Percentile for all STARTING Strutures = 51.189
+
 Mean MolProbity Score for all FINAL Structures = 1.777
+
 Mean MolProbity Score Percentile for all FINAL Structures = 80.189
 
 
 Mean MolProbity Clash Score for all STARTING Structures = 22.902
+
 Mean Clash Score Percentile for all STARTING Structures = 53.853
+
 Mean MolProbity Clash Score for all FINAL Structures = 2.163
+
 Mean Clash Score Percentile for all FINAL Structures =96.081
 
 
