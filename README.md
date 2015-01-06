@@ -2,6 +2,27 @@ holden-structures
 =================
 Atomic resolution protein structures of genes screened by the Holden Comprehensive Cancer Center.
 
+MolProbity Statistics:
+
+Mean MolProbity Score for all STARTING Structures = 2.529
+
+Mean MolProbity Score Percentile for all STARTING Strutures = 51.189
+
+Mean MolProbity Score for all FINAL Structures = 1.777
+
+Mean MolProbity Score Percentile for all FINAL Structures = 80.189
+
+
+Mean MolProbity Clash Score for all STARTING Structures = 22.902
+
+Mean Clash Score Percentile for all STARTING Structures = 53.853
+
+Mean MolProbity Clash Score for all FINAL Structures = 2.163
+
+Mean Clash Score Percentile for all FINAL Structures =96.081
+
+
+
 The initial models that we have refined are from either Swiss-Model or ModBase, indicated by the initials following their sequence length (see Naming Conventions, below).  These original structures are refined using two different optimization algorithms, developed by the Michael Schnieders lab at the University of Iowa:
 
   Algorithm 1. is a local optimization algorithm; it will computationally “walk down hill” in energy until it finds a certain root mean square gradient as defined by a convergence criteria (i.e. it looks for the minimum root mean square energy gradient position for each atom to be in and when it finds a pre-defined convergence criteria, it stops there).
