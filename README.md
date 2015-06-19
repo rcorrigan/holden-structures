@@ -1,25 +1,25 @@
-holden-structures
+holden-structure
 =================
 Atomic resolution protein structures of genes screened by the Holden Comprehensive Cancer Center.
 
 MolProbity Statistics:
 
-Mean MolProbity Score for all STARTING Structures = 2.529
+Mean MolProbity Score for all STARTING Structures = 2.527
 
-Mean MolProbity Score Percentile for all STARTING Strutures = 51.189
+Mean MolProbity Score Percentile for all STARTING Strutures = 49.657
 
-Mean MolProbity Score for all FINAL Structures = 1.777
+Mean MolProbity Score for all FINAL Structures = 1.556
 
-Mean MolProbity Score Percentile for all FINAL Structures = 80.189
+Mean MolProbity Score Percentile for all FINAL Structures = 90.014
 
 
-Mean MolProbity Clash Score for all STARTING Structures = 22.902
+Mean MolProbity Clash Score for all STARTING Structures = 26.039
 
-Mean Clash Score Percentile for all STARTING Structures = 53.853
+Mean Clash Score Percentile for all STARTING Structures = 46.885
 
-Mean MolProbity Clash Score for all FINAL Structures = 2.163
+Mean MolProbity Clash Score for all FINAL Structures = 0.945
 
-Mean Clash Score Percentile for all FINAL Structures =96.081
+Mean Clash Score Percentile for all FINAL Structures =99.00
 
 
 
